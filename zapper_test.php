@@ -1,6 +1,6 @@
 <?php
 	// Main configuration
-	$merchange_id 	= 817;			// Your Zapper MerchantID
+	$merchant_id 	= 817;			// Your Zapper MerchantID
 	$site_id	= 463;			// Your Zapper SiteID
 	$bill_amount	= 0.01;			// The amount being charged
 	$default_tip	= '12.5%'; 		// Accepted values: '12.5%', '10%', '0%', false
@@ -14,7 +14,7 @@
 
 	// End of configuration
 
-	$url = "https://zapapi.zapzap.mobi/zappertech/api/generatecode?merchantid=$merchange_id&siteid=$site_id&taskid=6";
+	$url = "https://zappertech.zapzap.mobi/api/generatecode?merchantid=$merchant_id&siteid=$site_id&taskid=6";
 
 	$questions = array();
 	$questions[] = array(
