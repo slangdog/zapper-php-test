@@ -22,7 +22,7 @@
 		'GroupId' => 7,
 		'Answer' => $bill_amount,
 		'Required' => true,
-		'Type' => 3
+		'Type' => 11
 	);
 
 	switch($default_tip) {
